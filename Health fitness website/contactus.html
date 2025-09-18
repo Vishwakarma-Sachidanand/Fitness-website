@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Fitness Freak</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="imgD/logo.1.jpeg" alt="Fitness Freak Logo">
+                <h1>Fitness Freak</h1>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="DemoExercise.html">Demo Exercise</a></li>
+                    <li><a href="Programe.html">Fitness Programs</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="auth-buttons">
+                <a href="login page.html" class="btn btn-secondary">Login</a>
+                <a href="signup.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="height: 50vh;">
+            <div class="hero-content">
+                <h1>Get In Touch</h1>
+                <p>We're here to help you on your fitness journey</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-2">Contact Information</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="imgD/11.jpg" alt="Phone Icon">
+                        <h3>Phone</h3>
+                        <p><strong>+91 8948832717</strong></p>
+                        <p>Available 9 AM - 9 PM (Mon-Sat)</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <img src="imgD/10.jpg" alt="Email Icon">
+                        <h3>Email</h3>
+                        <p><strong>sachidananadvsk@gmail.com</strong></p>
+                        <p>We'll respond within 24 hours</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📱 Social Media</h3>
+                        <p>Follow us for daily fitness tips and motivation</p>
+                        <div style="margin-top: 1rem;">
+                            <a href="#" style="color: #667eea; margin-right: 1rem;">Instagram</a>
+                            <a href="#" style="color: #667eea; margin-right: 1rem;">Facebook</a>
+                            <a href="#" style="color: #667eea;">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="card" style="max-width: 600px; margin: 3rem auto;">
+                    <h3 class="text-center mb-2">Send us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" style="width: 100%; padding: 1rem; border: 2px solid #e1e1e1; border-radius: 10px; font-size: 1rem; font-family: inherit;" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="submit" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="card" style="margin-top: 2rem;">
+                    <h3 class="text-center mb-2">Frequently Asked Questions</h3>
+                    <div style="text-align: left;">
+                        <h4>Q: How do I get started with Fitness Freak?</h4>
+                        <p>A: Simply sign up for an account, complete your fitness assessment, and we'll create a personalized workout plan for you.</p>
+                        
+                        <h4>Q: Do I need gym equipment to use your programs?</h4>
+                        <p>A: No! We offer both gym-based and home workout programs. You can choose based on your available equipment.</p>
+                        
+                        <h4>Q: Can I change my fitness goals later?</h4>
+                        <p>A: Absolutely! You can update your goals anytime, and we'll adjust your program accordingly.</p>
+                        
+                        <h4>Q: Is there a mobile app available?</h4>
+                        <p>A: Our website is fully mobile-responsive, so you can access all features from any device with a web browser.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background: #333; color: white; text-align: center; padding: 2rem; margin-top: 2rem;">
+        <p>&copy; 2024 Fitness Freak. All rights reserved. | <a href="contactus.html" style="color: #667eea;">Contact Us</a></p>
+    </footer>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We\'ll get back to you soon.');
+        });
+    </script>
+</body>
+</html>

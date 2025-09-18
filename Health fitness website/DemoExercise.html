@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Demo Exercises - Fitness Freak</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="imgD/logo.1.jpeg" alt="Fitness Freak Logo">
+                <h1>Fitness Freak</h1>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="DemoExercise.html" class="active">Demo Exercise</a></li>
+                    <li><a href="Programe.html">Fitness Programs</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="auth-buttons">
+                <a href="login page.html" class="btn btn-secondary">Login</a>
+                <a href="signup.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="height: 50vh;">
+            <div class="hero-content">
+                <h1>Exercise Demonstrations</h1>
+                <p>Learn proper form and technique with our comprehensive exercise library</p>
+            </div>
+        </section>
+
+        <!-- Exercise Categories -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="text-center mb-2">Exercise Categories</h2>
+                <div class="exercise-gallery">
+                    <div class="exercise-card" onclick="window.location.href='chest.html'">
+                        <img src="imgD/Chest/1.jpg" alt="Chest Exercises">
+                        <h3>Chest Exercises</h3>
+                        <p>Build a powerful chest with these effective exercises</p>
+                    </div>
+                    <div class="exercise-card" onclick="window.location.href='back.html'">
+                        <img src="imgD/Back/1.jpg" alt="Back Exercises">
+                        <h3>Back Exercises</h3>
+                        <p>Develop a strong and defined back</p>
+                    </div>
+                    <div class="exercise-card" onclick="window.location.href='legs.html'">
+                        <img src="imgD/Legs/1.jpg" alt="Leg Exercises">
+                        <h3>Leg Exercises</h3>
+                        <p>Build powerful legs and glutes</p>
+                    </div>
+                    <div class="exercise-card" onclick="window.location.href='bisecp.html'">
+                        <img src="imgD/Bisecp/1.jpg" alt="Bicep Exercises">
+                        <h3>Bicep Exercises</h3>
+                        <p>Develop impressive arm strength</p>
+                    </div>
+                    <div class="exercise-card" onclick="window.location.href='tricep.html'">
+                        <img src="imgD/Tricep/1.jpg" alt="Tricep Exercises">
+                        <h3>Tricep Exercises</h3>
+                        <p>Complete your arm development</p>
+                    </div>
+                    <div class="exercise-card" onclick="window.location.href='sholder.html'">
+                        <img src="imgD/Sholder/1.jpg" alt="Shoulder Exercises">
+                        <h3>Shoulder Exercises</h3>
+                        <p>Build strong, defined shoulders</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo Exercise Gallery -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-2">Exercise Demonstration Gallery</h2>
+                <p class="text-center mb-2">Browse through our comprehensive collection of exercise demonstrations</p>
+                
+                <div class="exercise-gallery">
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0001.jpg" alt="Exercise Demo 1">
+                        <h3>Exercise Demo 1</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0002.jpg" alt="Exercise Demo 2">
+                        <h3>Exercise Demo 2</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0003.jpg" alt="Exercise Demo 3">
+                        <h3>Exercise Demo 3</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0005.jpg" alt="Exercise Demo 4">
+                        <h3>Exercise Demo 4</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0006.jpg" alt="Exercise Demo 5">
+                        <h3>Exercise Demo 5</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0007.jpg" alt="Exercise Demo 6">
+                        <h3>Exercise Demo 6</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0010.jpg" alt="Exercise Demo 7">
+                        <h3>Exercise Demo 7</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0011.jpg" alt="Exercise Demo 8">
+                        <h3>Exercise Demo 8</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0012.jpg" alt="Exercise Demo 9">
+                        <h3>Exercise Demo 9</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0013.jpg" alt="Exercise Demo 10">
+                        <h3>Exercise Demo 10</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0014.jpg" alt="Exercise Demo 11">
+                        <h3>Exercise Demo 11</h3>
+                    </div>
+                    <div class="exercise-card">
+                        <img src="imgD/demoex/0015.jpg" alt="Exercise Demo 12">
+                        <h3>Exercise Demo 12</h3>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="text-center mt-2">
+                    <button class="btn btn-primary" onclick="loadMoreExercises()">Load More Exercises</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="card">
+                    <h3 class="text-center mb-2">Exercise Tips for Success</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                        <div>
+                            <h4>🎯 Focus on Form</h4>
+                            <p>Proper form is more important than heavy weights. Start light and focus on perfect technique before increasing weight.</p>
+                        </div>
+                        <div>
+                            <h4>📈 Progressive Overload</h4>
+                            <p>Gradually increase weight, reps, or sets over time to continue making progress and avoid plateaus.</p>
+                        </div>
+                        <div>
+                            <h4>⏰ Consistency is Key</h4>
+                            <p>Regular exercise is more important than perfect workouts. Aim for consistency over perfection.</p>
+                        </div>
+                        <div>
+                            <h4>🔄 Mix It Up</h4>
+                            <p>Vary your exercises regularly to keep your muscles challenged and prevent boredom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background: #333; color: white; text-align: center; padding: 2rem; margin-top: 2rem;">
+        <p>&copy; 2024 Fitness Freak. All rights reserved. | <a href="contactus.html" style="color: #667eea;">Contact Us</a></p>
+    </footer>
+
+    <script>
+        function loadMoreExercises() {
+            // This would typically load more exercises from a server
+            alert('More exercises loaded! (This is a demo - in a real app, this would load additional exercises)');
+        }
+    </script>
+</body>
+</html>

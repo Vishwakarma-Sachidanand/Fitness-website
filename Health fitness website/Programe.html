@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fitness Programs - Fitness Freak</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="imgD/logo.1.jpeg" alt="Fitness Freak Logo">
+                <h1>Fitness Freak</h1>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="DemoExercise.html">Demo Exercise</a></li>
+                    <li><a href="Programe.html" class="active">Fitness Programs</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="auth-buttons">
+                <a href="login page.html" class="btn btn-secondary">Login</a>
+                <a href="signup.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="height: 60vh; margin-top: 0;">
+            <div class="hero-content">
+                <h1>Choose Your Fitness Program</h1>
+                <p>Select the perfect program tailored to your goals and fitness level</p>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-2">Our Fitness Programs</h2>
+                <p class="text-center mb-2">Each program is designed by certified trainers and nutritionists to help you achieve your specific goals</p>
+                
+                <div class="program-grid">
+                    <div class="program-card" onclick="window.location.href='Bodybuldingpro.html'">
+                        <img src="imgD/4.jpg" alt="Body Building Program">
+                        <div class="program-overlay">
+                            <h3>Body Building</h3>
+                            <p>Build muscle mass and strength</p>
+                        </div>
+                    </div>
+                    <div class="program-card" onclick="window.location.href='weightloss.html'">
+                        <img src="imgD/2.jpg" alt="Weight Loss Program">
+                        <div class="program-overlay">
+                            <h3>Weight Loss</h3>
+                            <p>Burn fat and get lean</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Details -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="exercise-gallery">
+                    <div class="card">
+                        <h3>💪 Body Building Program</h3>
+                        <p><strong>Duration:</strong> 12-16 weeks</p>
+                        <p><strong>Level:</strong> Intermediate to Advanced</p>
+                        <p><strong>Equipment:</strong> Gym equipment recommended</p>
+                        <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                            <li>Progressive strength training</li>
+                            <li>Muscle hypertrophy focus</li>
+                            <li>Nutrition guidance for bulking</li>
+                            <li>Recovery protocols</li>
+                            <li>Supplement recommendations</li>
+                        </ul>
+                        <a href="Bodybuldingpro.html" class="btn btn-primary">View Program</a>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>🔥 Weight Loss Program</h3>
+                        <p><strong>Duration:</strong> 8-12 weeks</p>
+                        <p><strong>Level:</strong> Beginner to Intermediate</p>
+                        <p><strong>Equipment:</strong> Minimal equipment needed</p>
+                        <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                            <li>Cardio and strength training</li>
+                            <li>Calorie deficit strategies</li>
+                            <li>Meal planning and prep</li>
+                            <li>Metabolism boosting exercises</li>
+                            <li>Lifestyle modifications</li>
+                        </ul>
+                        <a href="weightloss.html" class="btn btn-primary">View Program</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-2">What's Included in Each Program</h2>
+                <div class="exercise-gallery">
+                    <div class="card">
+                        <h3>📋 Personalized Workout Plans</h3>
+                        <p>Customized exercise routines based on your fitness level, available equipment, and schedule.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🍎 Nutrition Guidance</h3>
+                        <p>Detailed meal plans, recipes, and nutritional advice to support your fitness goals.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📊 Progress Tracking</h3>
+                        <p>Tools to monitor your progress, track workouts, and measure improvements.</p>
+                    </div>
+                    <div class="card">
+                        <h3>👨‍⚕️ Expert Support</h3>
+                        <p>Access to certified trainers and nutritionists for guidance and motivation.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📱 Mobile Access</h3>
+                        <p>Access your program anywhere, anytime with our mobile-responsive platform.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🔄 Program Updates</h3>
+                        <p>Regular program updates to keep you challenged and progressing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="card text-center">
+                    <h2>Ready to Start Your Fitness Journey?</h2>
+                    <p>Join thousands of people who have transformed their lives with our proven programs</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="signup.html" class="btn btn-primary">Get Started Today</a>
+                        <a href="contactus.html" class="btn btn-secondary">Have Questions?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background: #333; color: white; text-align: center; padding: 2rem; margin-top: 2rem;">
+        <p>&copy; 2024 Fitness Freak. All rights reserved. | <a href="contactus.html" style="color: #667eea;">Contact Us</a></p>
+    </footer>
+</body>
+</html>
